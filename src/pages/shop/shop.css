@@ -1,0 +1,73 @@
+.shopTitle{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: black;
+  padding: 50px;
+}
+
+.teosTechShop{
+   color: rgb(0, 0, 0);
+    font-size: 3rem;
+    border: 0px ;
+    border-radius: 80%;
+}
+
+.products {
+  width: 100%;
+  display: inline-grid;
+  height: auto; 
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  
+}
+
+.product{
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.product .description {
+   
+    text-align: center;
+    
+}
+
+.product:hover{
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.addToCartButton{
+    background-color: transparent;
+    border: 2px solid black;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.addToCartButton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+img{
+    
+ width: 300px;
+ height: 300px;
+    
+}
+
+.addToCartButton:active{
+    font-size: 0.9rem;
+}
