@@ -26,6 +26,7 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 .cartItem{
     width: 700px;
@@ -63,3 +64,13 @@ img{
     
 }
 
+.addToCartButton{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#cartTitle{
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

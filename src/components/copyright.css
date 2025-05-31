@@ -1,0 +1,35 @@
+.app-footer {
+  background-color: #222; /* Dark background */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  border-top: 1px solid #444; 
+  margin-top: 100%
+  
+
+}
+
+.app-footer p {
+  margin: 0; 
+}
+
+
+.app-footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+
+.app-footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.app-footer nav ul li a:hover {
+  color: #00bcd4; 
+}

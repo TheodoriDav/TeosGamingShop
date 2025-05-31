@@ -2,15 +2,17 @@
   font-size: 2rem;
   text-align: center;
   margin-top: 1rem;
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 50px;
+  font-family: Georgia, 'Times New Roman',;
 }
 
 .teosTechShop{
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
     font-size: 3rem;
     border: 0px ;
     border-radius: 80%;
+    font-family: 'Georgia' , serif;
 }
 
 .products {
@@ -46,7 +48,7 @@
 
 .addToCartButton{
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     min-width: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -56,18 +58,30 @@
 }
 
 .addToCartButton:hover{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     cursor: pointer;
 }
 
-img{
-    
- width: 300px;
- height: 300px;
-    
-}
+
 
 .addToCartButton:active{
     font-size: 0.9rem;
 }
+
+body{
+    background-color: #ffffff;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-image: url(/bgImg.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    
+    
+    
+}
+    
+

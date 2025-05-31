@@ -8,7 +8,6 @@
 }
 
 body{
-   background-color: white;
    margin: 0px;
 
   
@@ -20,6 +19,7 @@ body{
    display: flex;
    align-items: center; 
    justify-content: flex-end;
+   font-family: Georgia, 'Times New Roman', Times, serif;
    
   
 }

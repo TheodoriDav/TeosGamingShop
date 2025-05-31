@@ -1,0 +1,37 @@
+.techButton{
+    width: 150px;
+    height: 50px;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    border: none;
+    border: 4px solid;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: Georgia, ;
+}
+
+#techTitle{
+  color:rgb(0, 0, 0);
+   margin-top: 100px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+   
+.TechProducs{
+
+  display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+
+
+}
+
+.techBody{
+    background-color: white;
+    
+}
