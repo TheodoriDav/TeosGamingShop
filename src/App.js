@@ -7,6 +7,8 @@ import {ShopContextProvider} from './context/shop-context';
 import {Watches} from './pages/shop/watches.jsx';
 import {Tech} from './pages/shop/tech.jsx';
 import Footer from './components/copyright';
+import  CartCheckoutBtn  from './pages/cart/cartCheckoutBtn'; 
+
 
 function App() {
   return (
@@ -19,10 +21,12 @@ function App() {
           <Route path="/cart" element ={<Cart/>} />
           <Route path="/watches" element ={<Watches/>} />
           <Route path="/tech" element ={<Tech/>} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<CartCheckoutBtn className="cartcheckoutbtn" />} />
         </Routes>
       </Router>
-      </ShopContextProvider>  
       <Footer />
+      </ShopContextProvider>  
     </div>
   );
 }
