@@ -2,7 +2,11 @@
   "name": "my_ecommerce_app",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://theodoridav.github.io/TeosGamingShop/",
+=======
+  "homepage":"https://theodoridav.github.io/TeosGamingShop/",
+>>>>>>> 1a4b722a9083a4a5b1fc1f257fa3a5c046849c11
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
