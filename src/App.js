@@ -27,6 +27,7 @@ function App() {
       </Router>
       <Footer />
       </ShopContextProvider>  
+      
     </div>
   );
 }
