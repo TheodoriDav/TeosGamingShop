@@ -1,3 +1,14 @@
+# Teos tech Shop
+
+A demo gaming shop application that simulates an online store for  tech products.
+
+## 🛒 Features
+- Browse gaming products  
+- View product details  
+- Add items to cart  
+- Basic UI for an e-commerce concept  
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
